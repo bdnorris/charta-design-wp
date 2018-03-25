@@ -1,0 +1,406 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+/*@import url("banner.css");*/
+/*@import url("lightbox.css");*/
+/*@import url("fonts/theano.css");*/
+
+body {padding-top:1em;}
+
+/* TYPOGRAPHY */
+h1 {font-weight:300;margin:0 0 0.333em 0;line-height:1em;}
+h2 {text-transform:uppercase;margin:0;font-size:1.3em;font-weight:300;color:#6B6B6B;}
+a {color:#666666;}
+a:hover {color:#6CA4D8;}
+ul {margin-left:0;}
+
+/* -------------------
+---- ENTYPO ----
+------------------- */
+
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+
+
+/* -------------------
+---- TYPOGRAPHY ----
+------------------- */
+
+#summary h1, #page-header h1, h1.entry-title  {font-family:"theano_didotregular", serif;font-size:3rem;margin-bottom:0.1em;}
+#summary h1, #page-header h1  {text-transform:uppercase;letter-spacing:0.05em;}
+
+
+
+/* -------------------
+---- HEADER ----
+------------------- */
+
+h2.site-description {margin-bottom:1em;}
+.site-title {}
+
+/* Cart, Search and Social */
+.social {text-align:right;margin-bottom:0.333em;}
+.social a {
+	width:40px;
+	height:40px;
+	background-size:contain;
+	background-color:transparent;
+	background-repeat:no-repeat;
+	background-position:center center;
+	display:inline-block;
+}
+a.facebookIcon {background-image:url(../images/facebook.png);}
+a.twitterIcon {background-image:url(../images/social-media3.png);}
+a.pinterestIcon {background-image:url(../images/social-media6.png);}
+
+/*
+aside#edd_cart_widget-2 {text-align:right;}
+aside#edd_cart_widget-2 ul {list-style:none;text-align:right;}
+aside#edd_cart_widget-2 ul li {font-size:0.8rem;text-align:right;}
+*/
+.cartLinks {text-align:right;height:2em;}
+.cartLinks a {font-size:0.7rem;color:#6B6B6B;position:relative;}
+.cartLinks a:hover {}
+.cartLinks a:before {
+	content:'';
+	width:23px;height:21px;
+	display:block;position:absolute;
+	top:-3px;left:-28px;
+	background:transparent url(../images/basket.gif) center center;margin-right:0.333em;margin-bottom:1em;
+	}
+
+aside#search-2 {display:inline-block;text-align:right;float:right;}
+aside#search-2 form {}
+aside#search-2 form input {}
+
+/*  Tablet HEADER */
+@media only screen and (min-width: 40.063em) {
+	
+}
+/*  Desktop HEADER */
+@media only screen and (min-width: 64.063em) {
+	
+}
+
+
+/* -------------------
+---- NAVIGATION ----
+------------------- */
+
+#navWrap {background:transparent url(../images/NavBG1.jpg) no-repeat center center;background-size:contain;}
+@media (max-width: 40.063em) {
+	#navWrap {background-size:cover;}
+}
+@media only screen and (max-width: 614px) {
+	#navWrap {background:transparent url(../images/NavBG2.jpg) no-repeat center top;}
+}
+@media only screen and (max-width: 382px) {
+	#navWrap {background:transparent url(../images/NavBG3a.jpg) no-repeat center top;}
+}
+
+
+nav {border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin-bottom:1em;
+    background-color:transparent;
+	margin-top:0.8em;
+}
+
+.menu-toggle {font-family:"Open Sans", sans-serif;font-weight:300;}
+
+div.menu-top-nav-container {}
+
+ul#menu-top-nav {text-align:center;}
+ul#menu-top-nav li {display:inline-block;padding:0 0.9em 0 0.9em;}
+ul#menu-top-nav li:first-child {margin-left:0;}
+ul#menu-top-nav li:hover {
+	background-color:#ffffff;
+	padding-top:4px;margin-top:-4px;
+	padding-bottom:4px;margin-bottom:-4px;
+}
+ul#menu-top-nav li a {
+    color:#666;
+    text-transform:uppercase;
+    font-weight:300;
+}
+
+ul#menu-top-nav ul.sub-menu {background-color:#ffffff;padding:0.6em 0 0.6em 0;}
+ul#menu-top-nav ul.sub-menu li {text-align:left;}
+ul#menu-top-nav ul.sub-menu li a {text-transform:none;}
+ul#menu-top-nav ul.sub-menu li a:hover {color:#6CA4D8;}
+
+/* Mobile Nav */
+@media (max-width: 600px) {
+	ul.sub-menu {display:none !important;}
+    #site-navigation {text-align:center;}
+    h1.menu-toggle {font-weight:300;   margin-bottom: 5px;
+    margin-top: 4px;}
+    ul.nav-menu {list-style:none;text-align:center;}
+    li.menu-item {float:left;width:50%;text-align:center;margin-right:0 !important;margin-bottom:0.666em;font-size:1em;}
+    ul.sub-menu li {font-size:1em;width:92%;}
+    ul.sub-menu li a {width:100% !important;}
+    li.menu-item a {line-height:1.1em;margin-bottom:0.5em;}
+    
+    ul#menu-top-nav li {margin:0;padding:0;}
+    ul#menu-top-nav li:hover {background-color:transparent;margin:0;padding:0;}
+
+}
+
+/*  Tablet NAVIGATION */
+@media only screen and (min-width: 40.063em) {
+	
+}
+/*  Desktop NAVIGATION */
+@media only screen and (min-width: 64.063em) {
+	
+}
+
+
+/* -------------------
+---- HOME PAGE ----
+------------------- */
+
+.orbit {margin-bottom:1.375em;overflow:hidden;}
+
+h1.welcome {background-image:url(../images/cross_hatch.jpg);background-repeat:no-repeat; background-position: 100% 66%;font-family:"open sans condensed", "open sans", sans-serif;}
+@media only screen and (max-width: 614px) {
+	h1.welcome {background-image:none;}
+}
+
+.boxes div {margin-bottom:1.375em;}
+.boxes div:first-child {}
+
+div.email {
+	padding:1em 2em 2em 2em;
+	padding:1em 2em 0.666em;
+	background:transparent url(../images/EmailBG1.jpg) no-repeat center center;background-size:contain;
+	margin-bottom:1em;
+}
+div.email h2 {font-size:2.333em;font-family:'Open Sans Condensed', sans-serif;display:inline-block;}
+div.email p {clear:both;margin-bottom:0.666em;}
+img#envelope {display:inline-block;}
+
+@media (max-width: 60.063em) {
+	div.email {background-size:cover;}
+}
+/*  Tablet HOME */
+@media only screen and (min-width: 40.063em) {
+	
+}
+/*  Desktop HOME */
+@media only screen and (min-width: 64.063em) {
+	
+}
+
+
+
+/* -------------------
+---- FOOTER ----
+------------------- */
+
+/* MailChimp SignUp */
+form#mc4wp-form-1 {position:relative;margin-bottom:5em;margin-top:11%;}
+@media (max-width: 40.063em) {
+	form#mc4wp-form-1 {margin-top:0;}
+}
+input#mc4wp_email {
+	display:block;
+	float:left;
+	width:85%;
+	background-color:#ffffff;
+	z-index:100;
+	position:absolute;
+	top:0;left:0;
+}
+button#mcSubmit {
+	display:inline-block;
+	position:absolute;
+	top:-3px;
+	right:0;
+	width:76px;
+	border:none;
+	float:right;
+	display:block;
+	text-indent:-9999px;
+	background:transparent url(../images/arrow_original.png) no-repeat center center;
+	box-shadow:none;
+	transition:none;
+}
+button#mcSubmit:hover {
+	box-shadow:none;
+	border:none;
+}
+/*  Tablet FOOTER */
+@media only screen and (min-width: 40.063em) {
+	
+}
+/*  Desktop FOOTER */
+@media only screen and (min-width: 64.063em) {
+	
+}
+
+
+
+/* -------------------
+---- Products ----
+------------------- */
+
+.single-download article.type-download {padding-top:1em;}
+.single-download h1.entry-title {
+	font-family:"theano_didotregular", serif;
+	font-size:2.8rem;
+	margin-bottom:0.2em;
+	line-height: 1.25em;
+}
+article.type-download p {font-size:0.9rem;line-height: 1.333rem;}
+article.type-download p strong {color:#5EBF8F;}
+
+a.featuredImage {display: block;margin-bottom: 1em;}
+ul.clearing-thumbs {list-style:none;margin-left:0;text-align: center;}
+ul.clearing-thumbs li {display:inline-block;margin:0 0.5em 0.5em 0;}
+ul.clearing-thumbs li img {}
+
+a.addToCart, a.edd-cart-saving-button {
+	float:left;
+	color:#ffffff;
+	background-image: url(../images/addToCart.jpg);
+	background-color: transparent;
+	background-size:contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding: 1.0625rem 2rem 1rem;
+	text-transform: uppercase;
+	font-size: 1rem;
+	font-weight: 600 !important;
+	width:12em;height:3.666em;
+	font-family: "Open Sans",arial,sans-serif;
+	margin-left:-12px;
+	}
+a.addToCart:after, a.edd-cart-saving-button:after {content: '';display: block;background-image: url(../images/addToCart_h.jpg);}
+a.addToCart:hover, a.addToCart:focus, a.edd-cart-saving-button:hover, a.edd-cart-saving-button:focus {color:#ffffff;background-color: transparent;background-image: url(../images/addToCart_h.jpg);}
+a.addToCart:visited, a.edd-cart-saving-button:visited {color:#ffffff;}
+div.price {float: left;font-family:"theano_didotregular", serif;font-size: 1.8rem;margin: 0.5em 0.9em;}
+
+div#sharing, div#tags {clear: both;border-top:1px solid #ddd;vertical-align: middle;}
+div#sharing {padding:0.333em 0 0.333em 0;}
+div#fcbk_share {float:left;}
+
+div#tags {padding:1em 0;border-bottom:1px solid #ddd;}
+div#tags a {text-transform: lowercase;color:#8dc7d3;}
+div#tags a:hover {color:#7cb5c1;}
+
+div#meta {padding-top:1em;}
+div#meta div.columns {padding-left:0;}
+div#meta h4 {color:#7D7D7D;font-size:1.333rem;}
+div#meta a {color:#8dc7d3;}
+div#meta a:hover {color:#7cb5c1;}
+div#meta div div {margin-bottom:1.666em;font-size:0.8rem;line-height: 1.2rem;}
+div#meta p {margin-bottom: 0.1em;}
+
+/*  Tablet Products */
+@media only screen and (min-width: 40.063em) {
+	
+	
+}
+/*  Desktop Products */
+@media only screen and (min-width: 64.063em) {
+	ul.clearing-thumbs {text-align: left;}
+}
+
+
+
+
+/* -------------------
+---- ARCHIVES ----
+------------------- */
+
+#summary {border:1px solid #BAB9B9;padding-top: 0.6875em;padding-bottom: 0.6875em;margin-bottom:2em;}
+
+#summary p {font-size:0.8rem;margin-bottom:0;}
+#summary img {margin-bottom: 0.6875em;}
+
+.archiveBlocks {text-align:center;}
+.archiveBlocks img {margin-bottom:1em;}
+.archiveBlocks h1 {font-size:0.9rem;font-weight:400;}
+.archiveBlocks a {color:#000000;}
+.archiveBlocks a:hover, .archiveBlocks a:visted {color:#333333;}
+.archiveBlocks span {font-size:0.9rem;}
+
+@media only screen and (min-width: 60.063em) {
+	#summary img {margin-bottom: 0;}
+}
+/*  Tablet ARCHIVES */
+@media only screen and (min-width: 40.063em) {
+	
+}
+/*  Desktop ARCHIVES */
+@media only screen and (min-width: 64.063em) {
+	
+}
+
+
+/* -------------------
+---- Checkout ----
+------------------- */
+
+fieldset {padding:0 0 0.333em 0;}
+fieldset p {padding:0.6875em;margin-bottom:0;}
+fieldset input {margin:0 !important;}
+fieldset#edd_checkout_user_info, fieldset#edd_cc_fields, fieldset#edd_cc_address {
+	position: relative;
+	width: 100%;
+    
+}
+fieldset#edd_checkout_user_info {}
+fieldset#edd_cc_fields {float: left;}
+fieldset#edd_cc_address {float: left;}
+
+fieldset label {font-size:1.2rem;margin-bottom:-0.333rem;}
+fieldset span.edd-description {font-size: 0.8rem;font-style: italic;color:#ccc;}
+
+tr.edd_cart_footer_row {background-color:#ffffff;}
+
+th.edd_cart_total {background-color:#ddecef; font-size:1.2rem;font-weight: 300;padding: 1em 0.666em 0.8em 0.666em;}
+span.edd_cart_amount {font-size:2rem;font-family: 'theano_didotregular', serif;}
+
+form#edd_purchase_form legend {font-family: "theano_didotregular", serif;font-size: 2rem;letter-spacing: 2px;text-transform: uppercase;font-weight: 300;text-align: center;background-color:#ddecef;padding:0.333em 0;margin:0;}
+
+
+/*  Tablet ARCHIVES */
+@media only screen and (min-width: 40.063em) {
+	
+}
+/*  Desktop ARCHIVES */
+@media only screen and (min-width: 64.063em) {
+	fieldset#edd_cc_fields, fieldset#edd_cc_address {width:49%;}
+	fieldset#edd_cc_fields {margin-right:2%;}
+}
+
+
+/* -------------------
+---- FOOTER ----
+------------------- */
+
+footer.row div h4 {
+	font-family:"Open Sans", sans-serif;font-size:1em;text-transform:uppercase;font-weight:300;
+	margin-bottom:0.333em;
+}
+footer.row div h4 a {color:#666666;}
+footer.row div h4 a:hover {color:#6CA4D8;}
+footer.row div div ul {list-style:none;}
+footer.row div div ul li {font-size:0.8em;line-height:1em;margin-bottom:0.666em;}
+footer.row div div ul li a {color:#666666;}
+footer.row div div ul li a:hover {color:#6CA4D8;}
+
+footer.mobile div.centered {text-align:center;}
+
+footer#colophon {text-align:center;}
+footer#colophon p {font-size:0.666em;margin:0;}
+footer#colophon p:last-child {margin:0 0 1em 0;}
+
+/*  Tablet FOOTER */
+@media only screen and (min-width: 40.063em) {
+	
+}
+/*  Desktop FOOTER */
+@media only screen and (min-width: 64.063em) {
+	
+}
