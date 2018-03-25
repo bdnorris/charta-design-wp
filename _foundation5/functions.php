@@ -113,10 +113,10 @@ add_action( 'widgets_init', '_foundation_widgets_init' );
  * Enqueue scripts and styles
  */
 function _foundation_scripts() {
-	wp_enqueue_style( '_foundation-style', get_stylesheet_uri() );
-	wp_enqueue_style( 'normalize', get_template_directory_uri() . '/css/normalize.css' );
-	wp_enqueue_style( 'foundation', get_template_directory_uri() . '/css/foundation.min.css' );
-	wp_enqueue_style( 'lightbox', get_template_directory_uri() . '/css/lightbox.css' );
+	// wp_enqueue_style( '_foundation-style', get_stylesheet_uri() );
+	// wp_enqueue_style( 'normalize', get_template_directory_uri() . '/css/normalize.css' );
+	// wp_enqueue_style( 'foundation', get_template_directory_uri() . '/css/foundation.min.css' );
+	// wp_enqueue_style( 'lightbox', get_template_directory_uri() . '/css/lightbox.css' );
 	wp_enqueue_style( 'theano', get_template_directory_uri() . '/css/fonts/theano.css' );
 	wp_enqueue_style( 'custom', get_template_directory_uri() . '/css/custom.css' );
 	
